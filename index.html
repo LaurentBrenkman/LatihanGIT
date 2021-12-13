@@ -9,6 +9,25 @@
 <body>
     <h1>Latihan GIT di CAMP 404</h1>
     <p>klik daftar untuk meningkatkan skillmu!</p>
-    <button>Daftar</button>
+    <button onclick="cekProgram()">Cek Program</button>
+    <div id="program" style="visibility: inherit;">
+        <table border="1">
+            <tr>
+                <td>Program</td>
+                <td>Waktu</td>
+                <td>Daftar Program</td>
+            </tr>
+            <tr>
+                <td>GIT Personal Project</td>
+                <td>14 Desember 2021</td>
+                <td><button>Daftar</button></td>
+            </tr>
+        </table>
+    </div>
+    <script>
+        fuction cekProgram() {
+            document.getElementById("program").style.visibility = "visibility"
+        }
+    </script>
 </body>
 </html>
